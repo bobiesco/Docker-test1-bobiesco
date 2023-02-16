@@ -1,0 +1,5 @@
+FROM node:latest
+
+RUN mkdir /app/src
+
+WORKDIR /app/src
